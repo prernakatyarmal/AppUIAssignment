@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.uiassignment.TextViewPatternActivity"
+    tools:showIn="@layout/activity_text_view_pattern">
+
+    <TextView
+        android:id="@+id/textview_2"
+        android:layout_centerInParent="true"
+        android:text="@string/text_view_2"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        style="@style/style_textview_pattern"/>
+
+    <TextView
+        android:id="@+id/textview_1"
+        style="@style/style_textview_pattern"
+        android:text="@string/text_view_1"
+        android:layout_toLeftOf="@+id/textview_2"
+        android:layout_above="@+id/textview_2"/>
+
+
+    <TextView
+        android:id="@+id/textview_3"
+        style="@style/style_textview_pattern"
+        android:layout_below="@+id/textview_2"
+        android:layout_toRightOf="@+id/textview_2"
+        android:text="@string/text_view_3" />
+</RelativeLayout>

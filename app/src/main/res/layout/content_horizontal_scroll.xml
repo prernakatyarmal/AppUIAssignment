@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.uiassignment.HorizontalScrollActivity"
+    tools:showIn="@layout/activity_horizontal_scroll">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_item_1"
+                style="@style/ItemLayout">
+
+                <ImageView
+                    style="@style/style_item_imageview"
+                    android:src="@drawable/blue_bag" />
+
+                <TextView
+                    style="@style/style_item_textview"
+                    android:text="Item 1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item_2"
+                style="@style/ItemLayout">
+
+                <ImageView
+                    style="@style/style_item_imageview"
+                    android:src="@drawable/white_bag" />
+
+                <TextView
+                    style="@style/style_item_textview"
+                    android:text="Item 2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item_3"
+                style="@style/ItemLayout">
+
+                <ImageView
+                    style="@style/style_item_imageview"
+                    android:src="@drawable/red_bag" />
+
+                <TextView
+                    style="@style/style_item_textview"
+                    android:text="Item 3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item_4"
+                style="@style/ItemLayout">
+
+                <ImageView
+                    style="@style/style_item_imageview"
+                    android:src="@drawable/pink_bag" />
+
+                <TextView
+                    style="@style/style_item_textview"
+                    android:text="Item 4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item_5"
+                style="@style/ItemLayout">
+
+                <ImageView
+                    style="@style/style_item_imageview"
+                    android:src="@drawable/brown_bag" />
+
+                <TextView
+                   style="@style/style_item_textview"
+                    android:text="Item 5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
+
+

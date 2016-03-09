@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UIAssignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_horizontal_scroll">HorizontalScrollActivity</string>
+    <string name="title_activity_text_view_pattern">TextViewPatternActivity</string>
+    <string name="text_view_1">TextView1</string>
+    <string name="text_view_2">TextView2</string>
+    <string name="text_view_3">TextView3</string>
+    <string name="title_activity_color_buttons">ColorButtonsActivity</string>
+    <string name="color2">Blue Color</string>
+    <string name="color3">Green Color</string>
+    <string name="color1">Red Color</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_details_view">DetailsViewActivity</string>
+    <string name="view_pager_activity">ViewPagerActivity</string>
+    <string name="horizontal_scroll_activity">HorizontalScrollView</string>
+    <string name="color_activity">ColorActivity</string>
+    <string name="text_patter_activity">TextViewPatternActivity</string>
+</resources>
